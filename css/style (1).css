@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(202, 201, 201);
+}
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    outline: 1px solid black;
+    background: #F5F7FD;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #EEEFF1;
+}
+header a{
+    color: black;
+}
+.hero{
+    justify-content: space-around;
+    display: flex;
+    background:#EEEFF1;       ;
+}
+.hero h1{
+    font-family: "Jost", sans-serif;
+    font-size: 124px;
+    line-height: 140px;
+}
+a{
+    text-decoration: none;
+}
+.hero a{
+    width: 50px;
+    border-radius: 30%;
+    background: black;
+    padding: 10px;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+}
+section {
+    background: rgb(248, 246, 246);
+}
+.subtitle{
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    line-height: auto;
+    color: #64646A;
+}
+.title{
+    font-family: "Jost", sans-serif;
+    font-size: 64px;
+    line-height: 70px;
+}
+.titlecard{
+    font-family: "Jost", sans-serif;
+    font-size: 36px;
+    line-height: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.col{
+    width: 300px;
+    flex-grow: 1;
+    background: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+.text{
+    flex-grow: 1;
+}
+.wrap{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+}
+.wrap a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 40%;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+}
+.orderbtn{
+    width: 50px;
+    border-radius: 30%;
+    background: black;
+    padding: 10px;
+    color: white;
+}
+.right1,.left1{
+    display: flex;
+    justify-content: space-between;
+}
+.bestbtn{
+    width: 50px;
+    border-radius: 30%;
+    background: black;
+    padding: 10px;
+    color: white;
+}
+.sell{
+}
